@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boneless Couch — A Complete Guide to Soft Modern Seating</title>
+<meta name="description" content="Everything you need to know about the boneless couch: what it is, how it's built, how to choose one, and how to care for it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,560;0,9..144,650;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F6F1E8;
+    --cream-deep:#EEE3D2;
+    --ink:#2A211C;
+    --ink-soft:#5B4F45;
+    --sage:#6E7C5C;
+    --sage-deep:#4F5A41;
+    --clay:#B97A5C;
+    --clay-deep:#9C5F44;
+    --gold:#CDA355;
+    --plum:#3E2E33;
+    --line: rgba(42,33,28,0.12);
+    --radius-lg: 42px;
+    --radius-md: 26px;
+    --radius-sm: 16px;
+    --shadow-soft: 0 20px 45px -20px rgba(42,33,28,0.28);
+    --shadow-press: inset 0 2px 6px rgba(42,33,28,0.10);
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Manrope', sans-serif;
+    font-size:17px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  img,svg{display:block;max-width:100%;}
+  a{color:inherit;}
+  h1,h2,h3{
+    font-family:'Fraunces', serif;
+    font-weight:650;
+    color:var(--ink);
+    margin:0 0 0.5em 0;
+    letter-spacing:-0.01em;
+  }
+  p{margin:0 0 1.1em 0;}
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 6vw;
+  }
+  ::selection{background:var(--clay);color:#fff;}
+  :focus-visible{outline:3px solid var(--sage-deep);outline-offset:3px;}
+
+  /* ===== HEADER ===== */
+  header.site{
+    width:100%;
+    background:var(--cream);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:50;
+    backdrop-filter:blur(6px);
+  }
+  .nav-row{
+    max-width:1180px;
+    margin:0 auto;
+    padding:18px 6vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:24px;
+    flex-wrap:nowrap;
+    white-space:nowrap;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:'Fraunces', serif;
+    font-weight:650;
+    font-size:1.28rem;
+    color:var(--ink);
+    text-decoration:none;
+    flex-shrink:0;
+  }
+  .brand .mark{
+    width:30px;height:30px;flex-shrink:0;
+  }
+  nav.links{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    font-size:0.92rem;
+    font-weight:600;
+    overflow-x:auto;
+    scrollbar-width:none;
+  }
+  nav.links::-webkit-scrollbar{display:none;}
+  nav.links a{
+    text-decoration:none;
+    color:var(--ink-soft);
+    padding:8px 2px;
+    border-bottom:2px solid transparent;
+    transition:color .2s ease, border-color .2s ease;
+  }
+  nav.links a:hover{color:var(--sage-deep);border-color:var(--sage-deep);}
+  .nav-cta{
+    flex-shrink:0;
+    background:var(--ink);
+    color:var(--cream)!important;
+    padding:10px 20px;
+    border-radius:999px;
+    font-size:0.86rem;
+    font-weight:700;
+    text-decoration:none;
+    transition:transform .2s ease, background .2s ease;
+  }
+  .nav-cta:hover{background:var(--sage-deep);transform:translateY(-1px);}
+
+  /* ===== HERO ===== */
+  .hero{
+    position:relative;
+    overflow:hidden;
+    padding:88px 0 100px;
+  }
+  .blob{
+    position:absolute;
+    z-index:0;
+    filter:blur(0px);
+  }
+  .blob-1{top:-140px;right:-120px;width:560px;opacity:.9;}
+  .blob-2{bottom:-180px;left:-160px;width:460px;opacity:.55;}
+  .hero-inner{
+    position:relative;
+    z-index:2;
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 6vw;
+    display:grid;
+    grid-template-columns:1.15fr 0.85fr;
+    gap:56px;
+    align-items:center;
+  }
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:0.78rem;
+    font-weight:800;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--sage-deep);
+    background:rgba(110,124,92,0.12);
+    padding:8px 16px;
+    border-radius:999px;
+    margin-bottom:22px;
+  }
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--clay);}
+  h1.hero-title{
+    font-size:clamp(2.4rem, 4.6vw, 3.7rem);
+    line-height:1.06;
+    margin-bottom:22px;
+  }
+  h1.hero-title em{
+    font-style:italic;
+    color:var(--clay-deep);
+  }
+  .hero-sub{
+    font-size:1.1rem;
+    color:var(--ink-soft);
+    max-width:46ch;
+    margin-bottom:30px;
+  }
+  .hero-sub a.inline-link{
+    color:var(--sage-deep);
+    font-weight:700;
+    text-decoration:underline;
+    text-decoration-color:rgba(110,124,92,0.4);
+    text-underline-offset:3px;
+    transition:text-decoration-color .2s ease;
+  }
+  .hero-sub a.inline-link:hover{text-decoration-color:var(--sage-deep);}
+  .hero-actions{display:flex;gap:14px;flex-wrap:wrap;}
+  .btn-primary{
+    background:var(--clay-deep);
+    color:#fff;
+    padding:14px 26px;
+    border-radius:999px;
+    text-decoration:none;
+    font-weight:700;
+    font-size:0.95rem;
+    box-shadow:var(--shadow-soft);
+    transition:transform .2s ease, background .2s ease;
+    display:inline-flex;align-items:center;gap:8px;
+  }
+  .btn-primary:hover{transform:translateY(-2px);background:var(--sage-deep);}
+  .btn-ghost{
+    background:transparent;
+    color:var(--ink);
+    padding:14px 22px;
+    border-radius:999px;
+    text-decoration:none;
+    font-weight:700;
+    font-size:0.95rem;
+    border:1.5px solid var(--line);
+    transition:border-color .2s ease, background .2s ease;
+  }
+  .btn-ghost:hover{border-color:var(--ink);background:rgba(42,33,28,0.04);}
+
+  .hero-cushion{
+    position:relative;
+    aspect-ratio:1/1.02;
+    border-radius:58% 42% 46% 54% / 55% 48% 52% 45%;
+    background:linear-gradient(155deg, var(--clay) 0%, var(--clay-deep) 100%);
+    box-shadow:var(--shadow-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    animation:breathe 8s ease-in-out infinite;
+  }
+  .hero-cushion::after{
+    content:"";
+    position:absolute;
+    inset:14%;
+    border-radius:inherit;
+    background:linear-gradient(155deg, rgba(255,255,255,0.16), rgba(255,255,255,0));
+  }
+  .hero-cushion .stat{
+    position:relative;z-index:2;
+    text-align:center;
+    color:#fff;
+  }
+  .hero-cushion .stat .num{
+    font-family:'Fraunces', serif;
+    font-weight:650;
+    font-size:3.4rem;
+    line-height:1;
+  }
+  .hero-cushion .stat .lbl{
+    font-size:0.82rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    opacity:0.9;
+    margin-top:8px;
+    font-weight:700;
+  }
+  @keyframes breathe{
+    0%,100%{border-radius:58% 42% 46% 54% / 55% 48% 52% 45%;}
+    50%{border-radius:46% 54% 58% 42% / 48% 55% 45% 52%;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .hero-cushion{animation:none;}
+    html{scroll-behavior:auto;}
+  }
+
+  /* ===== SECTION SCAFFOLDING ===== */
+  section{padding:76px 0;}
+  .section-head{
+    max-width:56ch;
+    margin-bottom:36px;
+  }
+  .section-head .kicker{
+    display:block;
+    font-size:0.78rem;
+    font-weight:800;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--clay-deep);
+    margin-bottom:12px;
+  }
+  .section-head h2{font-size:clamp(1.6rem, 2.6vw, 2.2rem);}
+  .lede{color:var(--ink-soft);font-size:1.02rem;}
+  hr.divider{
+    border:none;
+    border-top:1px solid var(--line);
+    margin:0;
+  }
+
+  .prose{max-width:74ch;}
+  .prose h2{font-size:clamp(1.5rem,2.4vw,2rem);margin-top:0;}
+  .prose h3{font-size:1.25rem;margin-top:1.6em;color:var(--sage-deep);}
+  .prose p{color:var(--ink-soft);}
+  .prose a.inline-link{
+    color:var(--clay-deep);
+    font-weight:700;
+    text-decoration:underline;
+    text-decoration-color:rgba(185,122,92,0.4);
+    text-underline-offset:3px;
+  }
+  .prose a.inline-link:hover{text-decoration-color:var(--clay-deep);}
+
+  /* ===== BENEFIT CARDS ===== */
+  .card-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+  }
+  .cushion-card{
+    background:var(--cream-deep);
+    border-radius:var(--radius-md);
+    padding:30px 26px;
+    box-shadow:var(--shadow-press);
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+  .cushion-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-soft);}
+  .cushion-card .icon{
+    width:48px;height:48px;
+    border-radius:50%;
+    background:var(--sage);
+    display:flex;align-items:center;justify-content:center;
+    margin-bottom:16px;
+  }
+  .cushion-card .icon svg{stroke:#fff;width:22px;height:22px;}
+  .cushion-card h3{font-size:1.12rem;margin-bottom:8px;}
+  .cushion-card p{color:var(--ink-soft);font-size:0.96rem;margin-bottom:0;}
+
+  /* ===== DESIGN TYPES ===== */
+  .type-list{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+  }
+  .type-row{
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+    background:var(--cream);
+    border:1px solid var(--line);
+    border-radius:var(--radius-sm);
+    padding:22px 24px;
+  }
+  .type-row .tag{
+    flex-shrink:0;
+    width:40px;height:40px;
+    border-radius:50%;
+    background:var(--clay);
+    color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Fraunces',serif;
+    font-weight:650;
+  }
+  .type-row h3{font-size:1.02rem;margin-bottom:4px;}
+  .type-row p{font-size:0.92rem;color:var(--ink-soft);margin-bottom:0;}
+
+  /* ===== COMPARISON TABLE ===== */
+  .compare-wrap{
+    background:var(--plum);
+    border-radius:var(--radius-lg);
+    padding:52px 6vw;
+    color:var(--cream);
+  }
+  .compare-wrap .section-head .kicker{color:var(--gold);}
+  .compare-wrap .section-head h2{color:var(--cream);}
+  .compare-wrap .lede{color:rgba(246,241,232,0.7);}
+  table.compare{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:28px;
+  }
+  table.compare th, table.compare td{
+    text-align:left;
+    padding:16px 18px;
+    font-size:0.95rem;
+  }
+  table.compare thead th{
+    font-family:'Fraunces',serif;
+    font-weight:650;
+    font-size:1.05rem;
+    border-bottom:2px solid rgba(246,241,232,0.25);
+  }
+  table.compare thead th:first-child{color:rgba(246,241,232,0.5);font-family:'Manrope';font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;}
+  table.compare thead th:nth-child(2){color:var(--gold);}
+  table.compare thead th:nth-child(3){color:rgba(246,241,232,0.75);}
+  table.compare tbody tr{border-bottom:1px solid rgba(246,241,232,0.12);}
+  table.compare tbody tr:last-child{border-bottom:none;}
+  table.compare tbody td:first-child{color:rgba(246,241,232,0.55);font-weight:700;font-size:0.82rem;text-transform:uppercase;letter-spacing:0.06em;}
+  table.compare tbody td:nth-child(2){color:var(--cream);font-weight:600;}
+  table.compare tbody td:nth-child(3){color:rgba(246,241,232,0.75);}
+
+  /* ===== ROOMS STRIP ===== */
+  .room-strip{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:14px;
+  }
+  .room-pill{
+    background:var(--cream-deep);
+    border-radius:999px;
+    padding:14px 10px;
+    text-align:center;
+    font-size:0.86rem;
+    font-weight:700;
+    color:var(--sage-deep);
+    border:1px solid var(--line);
+  }
+
+  /* ===== FAQ ===== */
+  .faq-item{
+    border-bottom:1px solid var(--line);
+  }
+  .faq-item summary{
+    cursor:pointer;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:22px 4px;
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:1.06rem;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary .plus{
+    flex-shrink:0;
+    width:30px;height:30px;
+    border-radius:50%;
+    border:1.5px solid var(--line);
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.1rem;
+    color:var(--clay-deep);
+    transition:transform .25s ease;
+  }
+  .faq-item[open] summary .plus{transform:rotate(45deg);}
+  .faq-item .faq-a{
+    padding:0 4px 22px 4px;
+    color:var(--ink-soft);
+    max-width:66ch;
+  }
+
+  /* ===== CTA BAND ===== */
+  .cta-band{
+    background:var(--sage);
+    border-radius:var(--radius-lg);
+    padding:56px 6vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:32px;
+    flex-wrap:wrap;
+    color:#fff;
+  }
+  .cta-band h2{color:#fff;font-size:clamp(1.5rem,2.6vw,2.1rem);margin-bottom:6px;}
+  .cta-band p{color:rgba(255,255,255,0.82);margin-bottom:0;}
+  .cta-band .btn-primary{background:var(--ink);}
+  .cta-band .btn-primary:hover{background:var(--plum);}
+
+  /* ===== FOOTER ===== */
+  footer.site{
+    background:var(--ink);
+    color:rgba(246,241,232,0.72);
+    padding:60px 0 26px;
+    margin-top:40px;
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr 1fr;
+    gap:36px;
+    padding-bottom:40px;
+    border-bottom:1px solid rgba(246,241,232,0.12);
+  }
+  .footer-brand{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Fraunces',serif;font-weight:650;font-size:1.2rem;color:var(--cream);
+    margin-bottom:14px;
+  }
+  .footer-grid p{font-size:0.92rem;max-width:32ch;}
+  .footer-grid h4{
+    color:var(--cream);
+    font-family:'Manrope';
+    font-size:0.82rem;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    margin-bottom:14px;
+  }
+  .footer-grid ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
+  .footer-grid a{
+    color:rgba(246,241,232,0.72);
+    text-decoration:none;
+    font-size:0.92rem;
+    transition:color .2s ease;
+  }
+  .footer-grid a:hover{color:var(--gold);}
+  .social-row{display:flex;gap:12px;margin-top:6px;}
+  .social-row a{
+    width:38px;height:38px;
+    border-radius:50%;
+    border:1px solid rgba(246,241,232,0.2);
+    display:flex;align-items:center;justify-content:center;
+    transition:background .2s ease, border-color .2s ease;
+  }
+  .social-row a:hover{background:var(--clay);border-color:var(--clay);}
+  .social-row svg{width:17px;height:17px;stroke:var(--cream);}
+  .footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:22px;
+    font-size:0.82rem;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+  .footer-bottom a{color:rgba(246,241,232,0.6);text-decoration:none;}
+  .footer-bottom a:hover{color:var(--gold);}
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width:960px){
+    .hero-inner{grid-template-columns:1fr;}
+    .hero-cushion{max-width:340px;margin:0 auto;}
+    .card-grid{grid-template-columns:1fr 1fr;}
+    .type-list{grid-template-columns:1fr;}
+    .room-strip{grid-template-columns:repeat(2,1fr);}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:640px){
+    .nav-row{padding:14px 5vw;}
+    nav.links{gap:18px;}
+    .nav-cta{display:none;}
+    .card-grid{grid-template-columns:1fr;}
+    table.compare{font-size:0.85rem;}
+    table.compare th, table.compare td{padding:12px 10px;}
+    .footer-grid{grid-template-columns:1fr;}
+    .cta-band{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site">
+  <div class="nav-row">
+    <a href="#top" class="brand">
+      <svg class="mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 24c0-8 5-13 16-13s16 5 16 13c0 4-3 7-7 7H11c-4 0-7-3-7-7Z" fill="#B97A5C"/>
+        <path d="M8 24c2-2 6-3 12-3s10 1 12 3" stroke="#F6F1E8" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      Boneless Couch
+    </a>
+    <nav class="links">
+      <a href="#what-is">What It Is</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#types">Designs</a>
+      <a href="#compare">Comparison</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="https://bonelesscouch.net/" class="nav-cta" target="_blank" rel="noopener">Shop Couches</a>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<div id="top" class="hero">
+  <svg class="blob blob-1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#DCE3D4" d="M395,320Q370,390,290,410Q210,430,150,380Q90,330,90,255Q90,180,150,130Q210,80,290,100Q370,120,400,195Q430,270,395,320Z"/>
+  </svg>
+  <svg class="blob blob-2" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#EAD9C4" d="M380,300Q360,370,285,395Q210,420,145,375Q80,330,85,250Q90,170,155,120Q220,70,295,100Q370,130,390,205Q410,280,380,300Z"/>
+  </svg>
+  <div class="hero-inner">
+    <div>
+      <span class="eyebrow"><span class="dot"></span>Soft Seating Guide</span>
+      <h1 class="hero-title">Boneless Couch: A Complete Guide to <em>Soft Modern Seating</em></h1>
+      <p class="hero-sub">
+        The way people use their living spaces has changed considerably — a living room
+        is no longer just a formal area for entertaining guests. It's a place to watch
+        movies, play games, read, work, relax, or spend time with family, and that shift
+        has made comfortable, adaptable furniture more important than ever.
+      </p>
+      <div class="hero-actions">
+        <a href="#what-is" class="btn-primary">Start Reading →</a>
+        <a href="#faq" class="btn-ghost">Jump to FAQ</a>
+      </div>
+    </div>
+    <div class="hero-cushion">
+      <div class="stat">
+        <div class="num">0</div>
+        <div class="lbl">Rigid Frame</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== INTRO ===================== -->
+<section id="intro" style="padding-top:24px;">
+  <div class="wrap">
+    <div class="prose">
+      <p>The way people use their living spaces has changed considerably. A living room is no longer just a formal area for entertaining guests. It can be a place for watching movies, playing games, reading, working, relaxing, or spending time with family. Because of this shift, comfortable and adaptable furniture has become more important than ever. A
+        <a class="inline-link" href="https://bonelesscouch.net/" target="_blank" rel="noopener">boneless couch</a>
+        offers an interesting alternative to the conventional sofa by focusing on softness, flexibility, and a relaxed seating experience.</p>
+      <p>With its cushion-based appearance and informal design, this type of seating can fit naturally into contemporary apartments, family rooms, entertainment spaces, and bedrooms. However, choosing the right model requires more than looking at photographs. Materials, dimensions, support, upholstery, and everyday use all need to be considered.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHAT IS IT ===================== -->
+<section id="what-is">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">The Basics</span>
+      <h2>What is a boneless couch?</h2>
+    </div>
+    <div class="prose">
+      <p>A boneless couch is generally a soft seating design that relies less on a traditional rigid frame and more on foam, cushioning, and upholstery to create its structure. The result is often a relaxed silhouette with deep seating and a softer overall appearance.</p>
+      <p>Traditional sofas normally maintain their shape through an internal wooden or metal frame. A boneless design takes a different approach, allowing the cushioning itself to play a much larger role in shaping the furniture.</p>
+      <p>The exact construction can vary. Some products may be almost completely frameless, while others can contain internal support components. It's always wise to check the specifications of a particular product instead of assuming every boneless couch has the same construction.</p>
+
+      <h3>Why people choose frameless sofa designs</h3>
+      <p>One reason this furniture style has become popular is the demand for casual comfort. Many people prefer to sit in a way that feels natural rather than maintaining a formal upright posture.</p>
+      <p>A soft lounge sofa can allow users to stretch out, lean back, curl up with a book, or relax while watching television — particularly appealing for entertainment-focused rooms. The appearance is another attraction: rounded edges and large cushions create a cozy atmosphere that can complement minimalist interiors while still fitting comfortably into more traditional homes.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ===================== BENEFITS ===================== -->
+<section id="benefits">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Why It Works</span>
+      <h2>Main benefits of a boneless couch</h2>
+      <p class="lede">A well-designed boneless sofa can provide several advantages for modern households.</p>
+    </div>
+    <div class="card-grid">
+      <div class="cushion-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 18v-6a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v6"/><path d="M2 18h20"/></svg></div>
+        <h3>Deep comfort</h3>
+        <p>Generous cushioning creates a relaxed seating experience that works particularly well for lounging and movie nights.</p>
+      </div>
+      <div class="cushion-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></div>
+        <h3>Modular flexibility</h3>
+        <p>Some models let separate sections be arranged differently — useful when changing a layout or moving homes.</p>
+      </div>
+      <div class="cushion-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg></div>
+        <h3>Softer visual effect</h3>
+        <p>A less structured silhouette than a heavily framed sofa can help a room feel more casual and inviting.</p>
+      </div>
+      <div class="cushion-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <h3>Easier to move</h3>
+        <p>For apartment residents, selected models may be easier to move than large traditional couches — weight still varies.</p>
+      </div>
+      <div class="cushion-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="4"/></svg></div>
+        <h3>Adapts to any room</h3>
+        <p>From studio apartments to home theaters, its relaxed style fits far beyond a standard living room.</p>
+      </div>
+      <div class="cushion-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 21c-4-4-8-7-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 4-4 7-8 11Z"/></svg></div>
+        <h3>Everyday livability</h3>
+        <p>Built for how people actually use a living room now — movies, work, games, and family time, not just guests.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DESIGN TYPES ===================== -->
+<section id="types">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Find Your Shape</span>
+      <h2>Different boneless couch designs</h2>
+      <p class="lede">There are several variations available, and each is suited to a different purpose.</p>
+    </div>
+    <div class="type-list">
+      <div class="type-row">
+        <div class="tag">L</div>
+        <div><h3>Frameless lounge couch</h3><p>Designed around relaxation, with deep seating and large cushions that encourage stretching out.</p></div>
+      </div>
+      <div class="type-row">
+        <div class="tag">S</div>
+        <div><h3>Boneless sectional</h3><p>More seating for family rooms or larger entertainment areas — L-shaped configurations suit two walls well.</p></div>
+      </div>
+      <div class="type-row">
+        <div class="tag">M</div>
+        <div><h3>Modular boneless sofa</h3><p>Greater flexibility, with individual sections that can potentially be separated or rearranged.</p></div>
+      </div>
+      <div class="type-row">
+        <div class="tag">C</div>
+        <div><h3>Boneless loveseat</h3><p>A compact alternative for bedrooms, apartments, offices, or smaller sitting areas.</p></div>
+      </div>
+    </div>
+    <p class="lede" style="margin-top:22px;">Some designs are also available as convertible couch beds, allowing the furniture to serve as seating during the day and sleeping space when needed.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ===================== SIZE + COMFORT ===================== -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Getting It Right</span>
+      <h2>Choosing the correct size</h2>
+    </div>
+    <div class="prose">
+      <p>One of the easiest mistakes to make is buying a couch that is too large for the room. Soft furniture can have a deceptively spacious appearance, especially when viewed in a large showroom or online photograph.</p>
+      <p>Before ordering, measure the available floor area. Check the width, depth, and height of the furniture and compare those dimensions with your room — and consider the delivery route, since a couch may fit the room but not a narrow doorway or hallway.</p>
+      <p>For compact apartments, a loveseat or smaller two- or three-seat design may be more practical. Larger homes can accommodate sectional or oversized arrangements.</p>
+
+      <h3>Comfort depends on more than softness</h3>
+      <p>A couch can be extremely soft and still be uncomfortable. Proper support matters, especially if you expect to sit on it for several hours every day. Look at the type and quality of the foam or filling — higher-quality cushioning generally provides a better balance between softness and resilience.</p>
+      <p>Seat depth also matters: deep seating is excellent for lounging but may be less comfortable for someone who prefers an upright position. Back support should not be ignored either — some low-profile designs work best against a wall, while others have substantial back cushions that provide more independent support.</p>
+      <p>The best level of firmness is ultimately personal. If you can test a
+        <a class="inline-link" href="https://bonelesscouch.net/" target="_blank" rel="noopener">boneless couch</a>
+        before buying, spend enough time sitting in different positions rather than judging it after only a few seconds.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== COMPARISON ===================== -->
+<section id="compare">
+  <div class="wrap">
+    <div class="compare-wrap">
+      <div class="section-head" style="margin-bottom:0;">
+        <span class="kicker">Side by Side</span>
+        <h2>Boneless couch vs. regular sofa</h2>
+        <p class="lede">Both furniture styles can work well — their design philosophies are just different.</p>
+      </div>
+      <table class="compare">
+        <thead>
+          <tr><th>Category</th><th>Boneless Couch</th><th>Regular Sofa</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Structure</td><td>Cushion-focused</td><td>Usually frame-supported</td></tr>
+          <tr><td>Overall feel</td><td>Relaxed and soft</td><td>Structured and defined</td></tr>
+          <tr><td>Seating position</td><td>Lounge-oriented</td><td>Often more upright</td></tr>
+          <tr><td>Design</td><td>Casual and modern</td><td>Traditional or modern</td></tr>
+          <tr><td>Flexibility</td><td>Often modular</td><td>Usually more fixed</td></tr>
+          <tr><td>Visual profile</td><td>Soft and rounded</td><td>Defined edges</td></tr>
+          <tr><td>Best environment</td><td>Casual living &amp; entertainment</td><td>General-purpose seating</td></tr>
+          <tr><td>Support</td><td>Depends on cushion design</td><td>Often more structured</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ROOMS ===================== -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Where It Fits</span>
+      <h2>Best rooms for a boneless couch</h2>
+      <p class="lede">Its relaxed style can work in many areas of a home, not just a standard living room.</p>
+    </div>
+    <div class="room-strip">
+      <div class="room-pill">Family Room</div>
+      <div class="room-pill">Home Theater</div>
+      <div class="room-pill">Bedroom Nook</div>
+      <div class="room-pill">Studio Apartment</div>
+      <div class="room-pill">Gaming Room</div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ===================== UPHOLSTERY / CARE / FAMILIES ===================== -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Living With It</span>
+      <h2>Upholstery, care, and everyday use</h2>
+    </div>
+    <div class="prose">
+      <h3>Choosing the right upholstery</h3>
+      <p>Upholstery affects both appearance and practicality. If children or pets will regularly use the furniture, durability and easy cleaning should be priorities — a decorative fabric that requires complicated maintenance can become frustrating in a busy household.</p>
+      <p>Neutral colors provide long-term flexibility: gray, cream, beige, and brown work with a wide range of wall colors and accessories. For people who want their couch to become the centerpiece of the room, a stronger color can create a more noticeable visual statement. Regardless of the color, always check the manufacturer's cleaning instructions before using any cleaning product.</p>
+
+      <h3>Caring for your soft couch</h3>
+      <p>Vacuum the couch regularly to remove dust, crumbs, and other debris, paying particular attention to gaps between cushions. If the covers can be removed, follow the manufacturer's care instructions — washing upholstery incorrectly can cause shrinking, fading, or fabric damage.</p>
+      <p>Spills should be handled quickly; blotting the affected area carefully is generally preferable to aggressively rubbing the fabric. If the cushions are designed to be rotated, changing their position periodically can help distribute everyday wear.</p>
+
+      <h3>Boneless couch for families and pets</h3>
+      <p>Families often need furniture that can handle regular use — from children's play to family movie nights and accidental spills. For these environments, upholstery durability can matter more than appearance alone. Pet owners should also consider how easily hair and dirt can be removed; removable covers may offer an advantage, depending on the specific product.</p>
+
+      <h3>How to shop for a boneless couch online</h3>
+      <p>Online shopping is convenient but removes the chance to test furniture physically. Start by reading the full product specifications — measurements, materials, foam type, weight, seating capacity, and care instructions. Customer reviews can offer useful insight into long-term comfort and durability; look for repeated feedback rather than relying on a single extreme review. Always check shipping arrangements, delivery dimensions, warranty coverage, and return policies before buying large furniture.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA BAND ===================== -->
+<section>
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <h2>Is a boneless couch worth it?</h2>
+        <p>For relaxed seating, flexible arrangements, and a contemporary look, it can be a genuinely worthwhile investment.</p>
+      </div>
+      <a href="https://bonelesscouch.net/" class="btn-primary" target="_blank" rel="noopener">Explore Boneless Couch →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MISTAKES ===================== -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Before You Buy</span>
+      <h2>Mistakes to avoid</h2>
+    </div>
+    <div class="prose">
+      <p>Don't purchase a couch based entirely on its appearance — a beautiful design may not provide the support you need. Avoid ignoring room measurements, since oversized furniture can make a room feel cramped and restrict movement.</p>
+      <p>Don't assume every soft couch has the same quality of foam; construction materials vary significantly between products. Finally, avoid skipping the return policy — understanding your options beforehand can save considerable trouble if the couch doesn't meet your expectations.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ===================== CONCLUSION ===================== -->
+<section id="conclusion">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Wrapping Up</span>
+      <h2>Conclusion</h2>
+    </div>
+    <div class="prose">
+      <p>A boneless couch provides a modern alternative to traditional structured seating. Its soft construction, relaxed appearance, and potential for modular arrangements make it attractive for apartments, family rooms, bedrooms, gaming areas, and home theaters.</p>
+      <p>However, softness should never be the only consideration. The quality of cushioning, level of support, upholstery, dimensions, maintenance requirements, and overall construction all affect the long-term experience.</p>
+      <p>Take time to measure your room, compare materials, consider your lifestyle, and read the product information carefully. With the right choice, a boneless couch can provide a comfortable and welcoming place to relax for years to come.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ===================== FAQ ===================== -->
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Common Questions</span>
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item" open>
+        <summary>What is a boneless couch made of?<span class="plus">+</span></summary>
+        <div class="faq-a">Most boneless-style couches rely heavily on foam, cushions, and upholstery rather than a conventional rigid frame. Materials differ between manufacturers and individual designs.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Are boneless couches comfortable?<span class="plus">+</span></summary>
+        <div class="faq-a">They can be very comfortable, especially for people who enjoy deep, soft seating. Comfort depends on foam quality, seat depth, back support, and personal preference.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Is a boneless couch good for everyday use?<span class="plus">+</span></summary>
+        <div class="faq-a">A properly constructed model can be used every day. Check the quality of the cushioning and upholstery to ensure it's suitable for regular use.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Can a boneless couch be used in a small apartment?<span class="plus">+</span></summary>
+        <div class="faq-a">Yes. Smaller models and modular designs can work well in compact spaces. Measure the furniture and room carefully before purchasing.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How long does a boneless couch last?<span class="plus">+</span></summary>
+        <div class="faq-a">There is no universal lifespan. Durability depends on materials, construction, frequency of use, maintenance, and how much weight the furniture regularly supports.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Does a boneless couch provide back support?<span class="plus">+</span></summary>
+        <div class="faq-a">Support varies between models. Some have substantial back cushions, while others are designed for more casual lounging. Check the back height and cushion construction before purchasing.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Are boneless couches easy to clean?<span class="plus">+</span></summary>
+        <div class="faq-a">Maintenance depends on the upholstery. Removable and washable covers can simplify cleaning, while fixed upholstery may require specific cleaning methods.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I rearrange a boneless couch?<span class="plus">+</span></summary>
+        <div class="faq-a">Some modular boneless couches are specifically designed for rearrangement. Fixed models may not offer the same flexibility, so check the product design before buying.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Is a boneless couch suitable for children?<span class="plus">+</span></summary>
+        <div class="faq-a">It can be, particularly when made with durable, easy-care upholstery. Families should consider cleaning requirements, cushion durability, and overall construction.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What should I consider before buying?<span class="plus">+</span></summary>
+        <div class="faq-a">Consider the couch's dimensions, cushioning, support, upholstery, room size, maintenance, delivery requirements, warranty, return policy, and how you plan to use it.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg width="26" height="26" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 24c0-8 5-13 16-13s16 5 16 13c0 4-3 7-7 7H11c-4 0-7-3-7-7Z" fill="#B97A5C"/>
+            <path d="M8 24c2-2 6-3 12-3s10 1 12 3" stroke="#2A211C" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          Boneless Couch
+        </div>
+        <p>A modern guide to soft, frameless seating — built for how people actually live in their living rooms today.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 20c1-3 2-7 2-9a3 3 0 1 1 6 0c0 2-1 5-2 6"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M14 9h3V6h-3a3 3 0 0 0-3 3v2H8v3h3v6h3v-6h3l1-3h-4V9a1 1 0 0 1 1-1Z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 5l14 14M19 5 5 19"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Guide</h4>
+        <ul>
+          <li><a href="#what-is">What It Is</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#types">Designs</a></li>
+          <li><a href="#compare">Comparison</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="https://bonelesscouch.net/" target="_blank" rel="noopener">Shop the Collection</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#top">Back to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Boneless Couch. All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
